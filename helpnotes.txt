@@ -1,0 +1,65 @@
+📊 Customer Churn Prediction Project Guide
+==========================================
+
+🚀 Overview:
+This project predicts whether a telecom customer will churn (leave) or stay using Machine Learning models.
+
+------------------------------------------
+🧠 Features Used:
+------------------------------------------
+- Gender
+- Senior Citizen
+- Partner
+- Dependents
+- Tenure (months)
+- Monthly Charges
+- Total Charges
+
+------------------------------------------
+⚙️ Workflow:
+------------------------------------------
+1. Data Loading (CSV dataset from Telco customers)
+2. Data Cleaning
+   - Handling missing values
+   - Converting categorical values
+3. Feature Engineering
+   - Encoding categorical variables
+   - Scaling numerical features
+4. Model Training
+   - Logistic Regression
+   - Random Forest
+5. Model Evaluation
+   - Accuracy
+   - Precision / Recall / F1-score
+6. Deployment
+   - Streamlit web app
+
+------------------------------------------
+📦 How to Run Project:
+------------------------------------------
+
+1️⃣ Install dependencies:
+pip install -r requirements.txt
+
+2️⃣ Train model (if needed):
+python train.py
+
+3️⃣ Run Streamlit app:
+streamlit run app.py
+
+------------------------------------------
+📊 Output:
+------------------------------------------
+- Churn Probability (%)
+- Prediction (Stay / Churn)
+
+------------------------------------------
+💡 Notes:
+------------------------------------------
+- Input features must match training features exactly
+- Scaler and model must be loaded from /models folder
+- Do NOT modify feature order
+
+------------------------------------------
+🔥 Author:
+Machine Learning Portfolio Project
