@@ -1,7 +1,9 @@
 # 📊 Customer Churn Prediction System
----
+-------------------
 <img src="./tests/test .gif" width="900">
----
+
+-------------------
+
 A Machine Learning project that predicts customer churn using classification models and a Streamlit web app.
 
 🇬🇧 English Explanation
